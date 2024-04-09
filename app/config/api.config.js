@@ -7,11 +7,10 @@
  * - If you are using a E5 Subscription OneDrive for Business account, the direct links of your files are not the same here.
  *   In which case you would need to change directLinkRegex.
  */
-module.exports = {
   // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth. You would
   // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
-  clientId: process.env.MS_CLIENT_ID || '',
-  clientSecret: process.env.MS_CLIENT_SECRET || '',
+  clientId: process.env.MS_CLIENT_ID || '64b44d29-3967-455a-ab33-a6fa56129a3e',
+  clientSecret: process.env.MS_CLIENT_SECRET || 'U2FsdGVkX1+nYZtvTzma458ttjh8ZA4JRFX0qqZVGZbqseyYrUvNDJe9vV/OYOT7s9jnYqihtLPyomHJbYZVNg==',
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
